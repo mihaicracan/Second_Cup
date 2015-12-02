@@ -1,0 +1,103 @@
+@font-face {
+	font-family: MyriadPro-BoldCond;
+	src: url("./MyriadPro-BoldCond.otf") format("opentype");
+}
+
+html, body {
+	margin: 0;
+	background-color: #EAEAEA;
+	font-family: 'MyriadPro-BoldCond', sans-serif;
+}
+
+.screen {
+	width: 414px;
+    height: 736px;
+    overflow: hidden;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+.title {
+	position: absolute;
+	top: 0;
+	width: inherit;
+	padding-top: 10px;
+	font-size: 46px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.message {
+	position: absolute;
+	bottom: 20px;
+	z-index: 2000;
+	width: inherit;
+	text-align: center;
+	font-size: 30px;
+}
+
+.points {
+	position: absolute;
+    top: 105px;
+    width: inherit;
+    text-align: center;
+}
+
+.points .value {
+	font-size: 115px;
+    line-height: 80px;
+}
+
+.points .label {
+	font-size: 30px;
+}
+
+.glass {
+    margin: auto;
+    margin-top: 264px;
+	width: 236px;
+}
+
+.glass img.wrapper {
+	position: relative;
+	z-index: 1000;
+}
+
+.glass img.content {
+	display: none;
+	width: 190px;
+	margin: 0 auto;
+}
+
+.glass .content-hiding {
+	width: 100%;
+	position: relative;
+	z-index: 1000;
+	background-color: #EAEAEA;
+}
+
+.drop-wrapper {
+	position: absolute;
+	width: inherit;
+	top: 95px;
+	opacity: 0;
+}
+
+.drop-wrapper .drop {
+	width: 0px;
+	margin: auto;
+}
+
+.drop-wrapper .drop img {
+	
+}
+
+.drop-wrapper .drop .content {
+	margin-top: -57px;
+	text-align: center;
+	font-size: 40px;
+	color: #ffffff;
+}
